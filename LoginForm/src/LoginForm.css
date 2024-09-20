@@ -1,0 +1,32 @@
+.LoginForm{
+    border: 2px solid black;
+    padding: 25px 100px;
+    background: linear-gradient(45deg,rgb(236, 127, 187), rgb(73, 202, 253));
+    color: white;
+    border-radius: 5px;
+}
+
+.LoginForm h2{
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+.LoginForm label{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.LoginForm input{
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.LoginForm button{
+    border: none;
+    border-radius: 5px;
+    outline: none !important;
+    color: grey ;
+}
