@@ -8,8 +8,8 @@ This  a comment form where we can  send our remarks , username and rating . In t
 
 # LoginForm 
 
-This is the login form webhere we can pass our username and password to login. It is made by using react state and component etc.
+This is the login form where we can pass our username and password to login. It is made by using react state and components etc.
 
 # LoteryTicket 
 
-This is an lottery genrator app made by using react component etc.
+This is a lottery genrator app made by using react component etc.
