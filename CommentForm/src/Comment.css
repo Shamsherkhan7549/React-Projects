@@ -1,0 +1,28 @@
+.ShowComments{
+    border: 1px solid black;
+    line-height: 1rem;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    width: 15rem;
+}
+
+.CommentForm form input, textarea{
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+
+
+.Form{
+    border: 1px solid black;
+    padding: 30px 40px;
+    border-radius: 5px;
+    background: linear-gradient(#f8c0ff8f, #45e1a670);
+    height: 36rem;
+    overflow-x: hidden;
+}
