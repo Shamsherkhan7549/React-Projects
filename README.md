@@ -4,7 +4,7 @@ I made some react project using the core concept of react.
 
 # CommentForm
 
-This  a comment form where we can add send our remarks , username and rating . In this react app, I have used react state, props and component etc.
+This  a comment form where we can  send our remarks , username and rating . In this react app, I have used react state, props and component etc.
 
 # LoginForm 
 
