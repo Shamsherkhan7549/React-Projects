@@ -17,3 +17,7 @@ This is the comment form which we can use to pass our remark and rating with our
 # Joker
 
 This is joker app. This is a joke genrator app which made by using api and here i used react component , state, and effect in which i add effect for first render .
+
+# Weather
+
+This is the weather app. We can get the weather to enter city name. In this i used weather api and react component, props, and state
