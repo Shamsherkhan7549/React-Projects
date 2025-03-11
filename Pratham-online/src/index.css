@@ -1,0 +1,103 @@
+i{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.banner-program {
+    position: relative;
+    background-image: url("../src/assets/banner-bg.jpg"); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-program::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 32, 228, 0.846); /* Blue transparent overlay */
+    z-index: 1;
+}
+
+.banner-program * { 
+    z-index: 2; /* Ensure content is above the overlay */
+}
+.WhyPratham i{
+    color: yellow;
+    font-size: 3rem;
+}
+
+.WhyPratham{
+    
+    color: white;
+    position: relative;
+    background-image: url("../src/assets/banner-bg.jpg"); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.WhyPratham::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 56, 59, 0.846); /* Blue transparent overlay */
+    z-index: 1;
+}
+
+.WhyPratham * { 
+    z-index: 2; /* Ensure content is above the overlay */
+}
+
+.scrolling-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 0px ;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    animation: scrollText 25s linear infinite;
+    z-index: 1;
+  }
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .Register{
+    color: white;
+    background-color: blue;
+  }
+
+  .nav-btns{
+    position: absolute;
+    color: white;
+    background-color: blue;
+    height: 56px;
+    width: 300px;
+
+    right: 0;
+    text-align: end;
+    line-height: 52px;
+    z-index: 2;
+    padding-right: 20px;
+
+  }
+
+  .nav-btns button{
+    color: darkblue;
+    font-weight: 500;
+    margin-right: 20px;
+  }
