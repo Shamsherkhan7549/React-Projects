@@ -9,24 +9,24 @@ const Home = () => {
        <div className='banner-program'>
             <Hero 
             id={1}
-            img1={"../src/assets/ubanner3.jpeg"}
-            img2={"../src/assets/b12.jpg"}
-            img3={"../src/assets/b13.jpg"}
+            img1={"../public/ubanner3.jpeg"}
+            img2={"../public/b12.jpg"}
+            img3={"../public/b13.jpg"}
             />
             <Program/>
        </div>
         <Hero 
             id={2}
-            img1={"../src/assets/newbp.png"}
-            img2={"../src/assets/b12.jpg"}
-            img3={"../src/assets/b13.jpg"}
+            img1={"../public/newbp.png"}
+            img2={"../public/b12.jpg"}
+            img3={"../public/b13.jpg"}
             />
        <OptionContainer/>
        <Hero 
             id={3}
-            img1={"../src/assets/bannerselectionipm1.jpg"}
-            img2={"../src/assets/b8.jpg"}
-            img3={"../src/assets/b4.jpg"}
+            img1={"../public/bannerselectionipm1.jpg"}
+            img2={"../public/b8.jpg"}
+            img3={"../public/b4.jpg"}
             />
 
           <div className=" WhyPratham">
